@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pythonproject"
+version = "0.1.0"
+description = ""
+authors = ["saginesl <yana.barsukova.2003@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = {extras = ["standart"], version = "^0.25.0"}
+fastapi = "^0.108.0"
+psycopg2 = "^2.9.9"
+postgresql-extension-installer = "^0.0.3.0"
+postgres = "^4.0"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.25"
+pydantic-settings = "^2.1.0"
+fastapi-sqlalchemy = "^0.2.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
